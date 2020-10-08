@@ -2,6 +2,8 @@
 
 ![Docker Image Build and Test CI](https://github.com/cheminfo-py/{{ cookiecutter.repo_name }}/workflows/Docker%20Image%20Build%20CI/badge.svg)
 
+This is a webservice built using [FastAPI](https://github.com/tiangolo/fastapi).
+
 ## Usage
 
 To be usable on Heroku or Dokku, which use `PORT`environmental variables, you need to either create this environmental variable or put it into an `.env` file. For local development, the `run_docker.sh` script uses `8091`.
