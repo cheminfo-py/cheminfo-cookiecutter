@@ -19,6 +19,6 @@ COPY gunicorn_conf.py .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-USER cheminfoƒ
+USER cheminfo
 
 CMD gunicorn -t 150 -b 0.0.0.0:$PORT -c gunicorn_conf.py --log-level debug --capture-output --enable-stdio-inheritance app:app
