@@ -4,9 +4,15 @@ Cookiecutter based on the [CMS](https://github.com/MolSSI/cookiecutter-cms) cook
 
 ## Usage
 
-With the [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/installation.html#install-cookiecutter) package installed,
+With the [`cruft`](https://cruft.github.io/cruft/) package installed,
 execute the following command inside the folder you want to create the skeletal repository.
 
 ```bash
-cookiecutter gh:cheminfo-py/cheminfo-webservice-cookiecutter
+cruft create https://github.com/cheminfo-py/cheminfo-webservice-cookiecutter
+```
+
+to update, use
+
+```bash
+cruft update
 ```
