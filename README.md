@@ -11,6 +11,8 @@ execute the following command inside the folder you want to create the skeletal 
 cruft create https://github.com/cheminfo-py/cheminfo-webservice-cookiecutter
 ```
 
+then go into this folder and run `git init`.
+
 to update, use
 
 ```bash
